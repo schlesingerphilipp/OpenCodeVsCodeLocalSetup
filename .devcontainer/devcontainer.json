@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. 
+{
+    "name": "Test Open Code",
+    "service": "workspace",
+    "workspaceFolder": "/home/vscode/workspace",
+    "dockerComposeFile": [
+        "docker-compose.workspace.yml"
+    ],
+    "remoteEnv": {
+            },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "bierner.markdown-mermaid",
+                "njpwerner.autodocstring",
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}

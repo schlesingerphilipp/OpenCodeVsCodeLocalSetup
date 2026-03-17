@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  workspace:
+    build: .
+    tty: true
+    working_dir: /home/vscode/workspace
+    volumes:
+      # - ~/.ssh/:/home/vscode/.ssh/ # Add this when using ssh keys for git and alike
+      - ..:/home/vscode/workspace

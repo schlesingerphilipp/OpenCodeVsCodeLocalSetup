@@ -42,7 +42,13 @@ Successful connection snippet:
 ...
 ```
 ### 5. Connect OpenCode
+**WARNING** Even though the opencode.json specifies to use your local LMStudio server, there might be local configs in your system, that overwrite these setting. 
+ALWAYS verify that you are actually using the local setup like this:
 - Open this VsCode workspace as a Dev Container (if not already in a Dev Container)
+- Start an opencode terminal session by running `opencode` in the terminal
+- run `/connect` to connect OpenCode to the LMStudio server
+- In this dialog start typing 'LMStudio', here you should see your local model. Select it, and you are safe now.
+#### 5.1 Verify Server Address
 - In the `opencode.json` you see the adress `http://host.docker.internal:1234/v1`. This Adress works when running with Docker Desktop. 
 - If you are running without Docker Desktop, change the adress to `http://localhost:1234/v1`, and add `network_mode: "host"` to your `.devcontainer/docker-compose.yml` file, and rebuild the container.
 

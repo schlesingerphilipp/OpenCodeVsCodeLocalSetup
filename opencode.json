@@ -9,12 +9,12 @@
         "apiKey": "lmstudio"
       },
       "models": {
-        "openai/gpt-oss-20b": {
-          "name": "GPT OSS 20B (LM Studio)"
+        "lmstudio-community/gemma-4-E4B-it-GGUF": {
+          "name": "Gemma 4-E4B IT (LM Studio)"
         }
       }
     }
   },
-  "model": "lmstudio/openai/gpt-oss-20b",
-  "small_model": "lmstudio/openai/gpt-oss-20b"
+  "model": "lmstudio-community/gemma-4-E4B-it-GGUF",
+  "small_model": "lmstudio-community/gemma-4-E4B-it-GGUF"
 }

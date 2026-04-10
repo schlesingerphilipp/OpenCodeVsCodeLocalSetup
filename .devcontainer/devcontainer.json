@@ -1,4 +1,3 @@
-// For format details, see https://aka.ms/devcontainer.json. 
 {
     "name": "Test Open Code",
     "service": "workspace",
@@ -6,8 +5,7 @@
     "dockerComposeFile": [
         "docker-compose.workspace.yml"
     ],
-    "remoteEnv": {
-            },
+    "remoteEnv": {},
     "customizations": {
         "vscode": {
             "extensions": [

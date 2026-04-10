@@ -9,12 +9,12 @@
         "apiKey": "lmstudio"
       },
       "models": {
-        "lmstudio-community/gemma-4-E4B-it-GGUF": {
-          "name": "Gemma 4-E4B IT (LM Studio)"
+        "lmstudio/openai/qwen/qwen3.5-9b": {
+          "name": "Qwen 3.5 9B (LM Studio)"
         }
       }
     }
   },
-  "model": "lmstudio-community/gemma-4-E4B-it-GGUF",
-  "small_model": "lmstudio-community/gemma-4-E4B-it-GGUF"
+  "model": "lmstudio/openai/qwen/qwen3.5-9b",
+  "small_model": "lmstudio/openai/qwen/qwen3.5-9b"
 }
